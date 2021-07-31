@@ -4,9 +4,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.min.css">
   <title>Document</title>
 </head>
 <body>
-  
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__top">
+        <div class="site-header__contact">
+          <a class="site-header__contact-link" href="#">Chat with us</a>
+          <a class="site-header__contact-link" href="tel:+420336775664">+420 336 775 664</a>
+          <a class="site-header__contact-link" href="mailto:info@freshnesecom.com">info@freshnesecom.com</a>
+        </div>
+
+        <ul class="site-header__list">
+          <li class="site-header__item">
+            <a class="site-header__link" href="#">Blog</a>
+          </li>
+          <li class="site-header__item">
+            <a class="site-header__link" href="#">About Us</a>
+          </li>
+          <li class="site-header__item">
+            <a class="site-header__link" href="#">Careers</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="site-header__between header-between">
+        <h2 class="visually-hidden">call us</h2>
+        <a class="header-between__link" href="index.html">
+          <img class="header-between__img" src="./img/Freshnesecom.png" alt="logo" width="177px" height="50px">
+        </a>
+        <form class="header-between__img" action="https://echo.htmlacademy.ru" method="POST">
+          <select class="header-between__select" name="select" id="select">
+            <option value="" disabled selected>All categories</option>
+            <option value="bakery">Bakery</option>
+            <option value="fruit">Fruit</option>
+            <option value="meat">Meat</option>
+            <option value="drinks">Drinks</option>
+            <option value="kitchen">Kitchen</option>
+          </select>
+          <input class="header-between__input" type="text" name="serach products" id="search" placeholder="Search Products, categories">
+          <button class="site-header__button" type="submit"></button>
+        </form>
+      </div>
+    </div>
+  </header>
 </body>
 </html>
