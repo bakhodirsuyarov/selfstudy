@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,oBAAoB,AAAA,CAClB,OAAO,CAAE,KAAK,CACd,WAAW,CAAE,CAAC,CACf,AAED,AAAA,uBAAuB,AAAA,CACrB,aAAa,CAAE,IAAI,CACnB,gBAAgB,CAAE,GAAG,CACtB,AAED,AAAA,sBAAsB,AAAA,CACpB,aAAa,CAAE,IAAI,CACnB,gBAAgB,CAAE,GAAG,CACtB",
+    "sources": [
+        "../scss/blocks/header-between.scss"
+    ],
+    "names": [],
+    "file": "header-between.min.css"
+}

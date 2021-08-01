@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,oBAAoB;AACpB,AAAA,oBAAoB,CAAA;EAClB,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,CAAC;CACf;;AAED,AAAA,uBAAuB,CAAA;EACrB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,GAAG;CACtB;;AAED,AAAA,sBAAsB,CAAA;EACpB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,GAAG;CACtB",
+    "sources": [
+        "../scss/blocks/header-between.scss"
+    ],
+    "names": [],
+    "file": "header-between.css"
+}

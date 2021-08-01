@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
-  margin-top: 16px;
+  padding-top: 16px;
   border-bottom: 1px;
 }
 
@@ -20,7 +20,8 @@
   color: #151515;
 
   &:hover{
-    text-decoration: underline;
+    color: #6A983C;
+    transition: 0.5s;
   }
 
 }
@@ -43,5 +44,10 @@
   font-size: 12px;
   line-height: 16px;
   color: #151515;
+
+  &:hover{
+    color: #6A983C;
+    transition: 0.5s;
+  }
 }
 
